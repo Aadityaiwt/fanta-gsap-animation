@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: #FF8500;
+    font-family:'Poppins', sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.navbar img {
+    height: 70px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar ul li {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 50vh;
+    color: white;
+}
+
+.hero #fanta {
+    position: absolute;
+    height: 75vh;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.hero #orange-cut {
+    
+    position: absolute;
+    height: 35%;
+    top: -4%;
+    left: 32%;
+}
+
+.hero #orange {
+    position: absolute;
+    height: 40%;
+    bottom: 0%;
+    z-index: 1;
+    right: 30%;
+}
+
+.hero #leaf {
+    height: 300x;
+    width: 300px;
+    position: absolute;
+    left: 7%;
+    bottom: 300px;
+    transform: rotate(50deg);
+
+}
+
+.hero #leaf2 {
+    position: absolute;
+    right: 10%;
+    height: 40%;
+    bottom: 0%;
+    transform: rotate(-80deg); 
+}
+
+.hero #coconutleaf {
+    position: absolute;
+    right: 0%;
+    bottom: 50%;
+
+}
+
+.one {
+    height: 100vh;
+    width: 100%;
+    background-color: #DD2828;
+    position: relative;
+    display: flex;
+    color: white;
+    
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+
+}
+
+.one svg {
+    width: 40%;
+    position: absolute;
+    bottom: -20%;
+    transform: rotateX(70deg);
+}
+
+.right h1 {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.right p {
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+
+.two {
+    height: 100vh;
+    width: 100%;
+    background-color: #FF8500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.two .card {
+    height: 90vh;
+    width: 30%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seb {
+    background-color: #DD2828;
+}
+
+#satra {
+    background-color: #FD6413;
+}
+
+#nebu {
+    background-color: #022D5E;
+}
+
+.orange-cut {
+    position: absolute;
+    height: 55vh;
+    top: -10%;
+}
+
+.cocacola {
+    height: 80vh;
+    position: absolute;
+}
+
+.pepsi {
+    height: 90vh;
+    position: absolute;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+}
+
+.footer h4 {
+    text-align: center;
+    color: white;
+    /* background-color: #70CAFE; */
+    background: linear-gradient(to bottom,  #DD2828, #FF8500);
+    padding: 20px;
+}
+
+
+
